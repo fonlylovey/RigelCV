@@ -10,6 +10,15 @@ class MainWidget : public QMainWindow
 public:
 	MainWidget(QWidget *parent = Q_NULLPTR);
 
+public slots:
+	//ª“∂»Õº
+	void slotGrayscale();
+
+	//º∆À„Ã›∂»
+	void slotSobel();
+
+	//Ωµ‘Î
+	void slotDenoise();
 private:
 	Ui::MainWidget ui;
 };

@@ -3,5 +3,6 @@ x64
 Temp
 Debug
 Win32
+.vs
 CompareImage.exe
 CompareImage.vcxproj.user
