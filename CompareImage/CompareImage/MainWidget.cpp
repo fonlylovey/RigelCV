@@ -16,9 +16,9 @@ MainWidget::MainWidget(QWidget *parent)
 	//LOG() << "asd";
 // 	LogStream strStrem;
 // 	strStrem << "123";
-	//ImageCompare imgCompare;
-	//auto matImg = imgCompare.MoveDetect(image1, image2);
-	
+	ImageCompare imgCompare;
+	auto matImg = imgCompare.MoveDetect(image1, image2);
+	imshow("hello openCV", matImg);
 
 
 	//cv::cvtColor(image, image, CV_BGR2RGB);

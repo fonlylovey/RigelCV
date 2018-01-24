@@ -6,3 +6,4 @@ Win32
 .vs
 CompareImage.exe
 CompareImage.vcxproj.user
+CompareImage.VC.db
